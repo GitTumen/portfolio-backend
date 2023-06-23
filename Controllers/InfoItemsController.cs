@@ -121,6 +121,7 @@ namespace DotNetApi.Controllers;
        {
            Id = InfoItem.Id,
            Name = InfoItem.Name,
+           Links = InfoItem.Links,  
            IsComplete = InfoItem.IsComplete
        };
 }

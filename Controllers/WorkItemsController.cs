@@ -117,6 +117,7 @@ namespace DotNetApi.Controllers;
        {
            Id = WorksItem.Id,
            Name = WorksItem.Name,
+           Cost = WorksItem.Cost,
            IsComplete = WorksItem.IsComplete
        };
     }

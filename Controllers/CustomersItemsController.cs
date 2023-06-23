@@ -121,6 +121,7 @@ namespace DotNetApi.Controllers;
      {
          Id = CustomersItem.Id,
          Name = CustomersItem.Name,
+         Work = CustomersItem.Work,
          IsComplete = CustomersItem.IsComplete
      };
 }

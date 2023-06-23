@@ -120,7 +120,8 @@ namespace DotNetApi.Controllers;
      new BlogItemDTO
      {
          Id = BlogItem.Id,
-         Name = BlogItem.Name,
+         Title = BlogItem.Title,
+         Description= BlogItem.Description,
          IsComplete = BlogItem.IsComplete
      };
 }
